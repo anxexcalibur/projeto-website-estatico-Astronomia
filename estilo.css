@@ -1,0 +1,250 @@
+/seletor{propriedade: valor}*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;400;900&display=swap');
+
+*{margin:0; padding:0;}
+
+body{
+	background-color: black;
+}
+
+header,img{
+	width: 100%;
+	height: 400px;
+	color: #9538FE;
+}
+
+nav{
+
+	background-color: #daa520;
+	text-align: center;
+	padding:10px;
+
+}
+
+/* formatação dos "A"*/
+a{
+	color: #fff;
+	font: 1.2rem 'Kaushan Script', cursive;
+	text-decoration:none ;
+
+}
+/* Menu principal*/
+.a-menu{
+
+	margin-right: 30px;
+	font-weight:bold;
+
+}
+
+
+.a-menu:link,.a-menu: visited;{color:#fff ;
+}
+
+.a-menu:hover, .a-menu:active{
+	color: black;
+}
+
+article{
+	width: 100%;
+	background-color: black;
+	padding: 10px ;
+	box-sizing: border-box;
+
+}
+/*formataçãodo H1- titulo principal*/
+h1{
+	font: 3.2rem 'Kaushan Script', cursive;
+	color: #FFE7EF;
+	text-align: center;
+	margin-bottom:20px ;
+}
+
+/*formatação dos paragráfos  e textos*/
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size:1.4rem;
+	text-align: justify;
+	color: white;
+	text-indent: 50px;
+	line-height: 50px;
+}
+
+#txt-violeta{
+	color: beige;
+}
+
+h2{
+	font: 2rem 'Kaushan Script', cursive;
+	color: #FFE7EF;
+	margin-bottom: 15px;
+}
+/* camada de indice*/
+
+#indice{
+	background-color:#b8860b ;
+	color: white;
+	padding: 20px;
+}
+/* Formatação em cascata, h2  está dentro de indice*/
+
+#indice, h2{
+	color: #ffff;
+}
+ul{
+	list-style-type: upper-roman;
+	padding: 30px 40;
+}
+li{
+	margin-top: 30px;
+	font: 1rem 'roboto', sans-serif;
+	color:white;
+
+}
+/*noticiass*/
+#astro{
+	background-color: black;
+	
+}
+.card{
+	background-color: ;
+	margin: 10px ;
+	width: 25%;
+	border-radius: 8px;
+	box-shadow: 5px 2px 10px #daa520;
+	transition: 0.3s ;
+}
+.card:hover{
+	box-shadow: 6px 4px 10px #daa520;
+}
+.card-content{
+	padding: 15px;
+}
+.card-content p{
+	font-family: 'Roboto', sans-serif;
+	font-size:1rem;
+	line-height: 20px;}
+#container{
+
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h3{
+	font: 1rem 'Kaushan Script', cursive;
+	color: #FFE7EF;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*formatação das imagens em lista horisontal*/
+.imgnoticias{
+	width: 90%;
+	height: 40%;
+}
+/* videoo*/
+#historia{
+
+}
+#historia p{
+	text-align: justify;
+	color: white;
+}
+#container2{
+	display: flex;
+	
+}
+.colunashistoria{
+	padding: 20px;
+}
+
+.conteinerimg{
+	margin: 10px;
+	display: flex;
+	justify-content: ;
+	align-items: center;
+}
+.conteinerimg p{
+	font-size:0.9rem;
+	color: white;
+
+}
+
+.imgicons{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+video{
+	width: 800px;
+}
+
+footer{
+	background-color:#daa520 ;
+	color: white;
+	padding: 5px;
+}
+footer,	p{
+	font: 1rem 'Kaushan Script', cursive;
+	text-align: center;
+}
+footer a:hover{
+	color: black;
+
+}
+/*pagina de agendamentos*/ 
+
+
+#pag_agendamentos,  {
+	text-align: center;
+	margin-bottom: 8px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+
+}
+form{
+	width: 427px;
+	
+	margin: 0 auto;
+}
+input, select, textarea {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10 px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px, solid #c4c4c4;
+	
+	color: #777;
+
+}
+label, fieldset,input, select, textarea{
+	font-family: 'Roboto', sans-serif;
+	color:#daa520 ;
+}
+fieldset{
+	border: 1px, solid #c4c4c4;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#data{
+	display: flex;
+}
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+	margin left: 50 px;
+}
+#botao{
+	display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #8bc34a;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+}
+input[type="reset"]{
+	background-color: #f47e7e;
+}

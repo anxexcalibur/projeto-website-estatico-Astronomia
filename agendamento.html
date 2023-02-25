@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body >
+	<!-- O elemento header define um cabeçalho da página -->
+<header>
+    <!-- A tag img define uma imagem que será exibida no cabeçalho, com o atributo src indicando o caminho para o arquivo de imagem -->
+    <img src="img/bannerastro.png" alt="Banner contendo o logo do Astronomia Descomplicada, é um planeta com aneis feito com linhas simples e de fundo transparente e com Astronomia Descomplicada, há uma faixa preta meio transparente encima de um haelo de um buraco negro." width="100%" height="420" />
+</header>
+
+<!-- O elemento nav define uma barra de navegação da página -->
+<nav>
+    <!-- As tags a definem links para outras páginas da web ou seções da página atual -->
+    <a class="a-menu" href="index.html">Página Inicial</a>
+    <a class="a-menu" href="index.html#historia">Historia</a>
+    <a class="a-menu" href="index.html#astro">Notícias</a>
+    <a class="a-menu" href="#">Registre-se</a>
+</nav>
+<section id=pag_agendamentos>
+	<h1> Registre-se </h1>
+	<p> Entre na nossa lista de contatos!!</p>
+	<!-- Um formulário para o registro do usuário -->
+		<form name="" method="" action="">
+	 		<label for="nome">Nome: </label>
+	 		<input  id="nome" type="text" name="Nome_completo" size="50" placeholder=" Digite seu Nome Completo" required />
+	
+	 		<label for="Email">E-mail:</label>
+	 		<input id="Email" type="Email" name="Email"   placeholder=" exemplo@email.com" required> 
+	 		<label for="senha" >Senha:</label> 
+	 		<input id="senha" type="password" name="Senha"  placeholder="123456" required />
+	 		<label for="Celular">Celular:</label> 
+	 		<input id="Celular" type="tel" name="celular"  placeholder="(99)99 9999-9999" pattern="\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+		 		<label for="Nascimento">Nascimento:</label>
+		 		<input id="Nascimento" type="date" name="nascimento" required>
+		 		<label for="idade">Idade:</label>
+	 		<input id="idade" type="number" name="idade" min="1" max="300" step="1"  required />
+	 		<label for="Escolaridade">Escolaridade</label></br>
+	 		<select id="Escolaridade" name="Escolaridade">
+
+	 			<option>Selecione.</option>
+	 			<option value="Iniciante">Sem Escolaridade</option>
+	 			<option value="Medio">Ensino Médio</option>
+	 			<option value="Superior_cursando">Ensino Superior Cursando</option>
+	 			<option value="Superior">Ensino Superior Completo</option>
+	 			
+	 		</select>
+
+	 		<fieldset>
+	 			<legend>Gênero:</legend>
+		 		<input Id="M" type="radio" name="genero" value="M"> <label for="F">Feminino</label>
+		 		</br>
+		 		<input id="F"type="radio" name="genero" value="F"> <label for="M">Masculino</label>
+		 		</br>
+		 		<input id="outro"type="radio" name="genero" value="outro"> <label for="outro">Outros</label>
+	 		</fieldset>
+	 		<fieldset>
+	 			<legend>Áreas de interesse</legend>
+		 		<input Id="ciencias_exatas" type="checkbox" name="interesse" value="exatas"> <label for="ciencias_exatas">Exatas </label>
+>
+		 		<input id="ciencias_humanas"type="checkbox" name="interesse" value="humanas"> <label for="ciencias_humanas">Ciências Humanas</label>
+		 		<input id="ciencias_naturais"type="checkbox" name="interesse" value="naturais"><label for="ciencias_naturais"> Ciências Naturais</label>
+		 		<input id="linguagens"type="checkbox" name="interesse" value="linguagens"> <label for="Linguagens">Linguagens</label>
+		 		<input id="artes"type="checkbox" name="interesse" value="artes"><label for="artes">Artes</label>
+	 		</fieldset>
+
+	 		<label for="msg">Envie sua opnião sobre o site:</label>
+	 		<textarea id=msg cols="50" rows="5">	
+	 		</textarea>
+
+	 		<div id="botao">
+
+		 		<input type="submit" name="Botao-enviar" value="Registre-se" />
+		 		<input type="reset" name="botao-cancelar" value="Cancelar" />
+		 		
+	 		</div>
+
+	 	</form>
+	 	 <hr/>
+	 	</section>
+	 	 <footer>
+			 <p > Desenvolvido por Gabriel Galvão - 2021</p>
+		</footer>
+</body>
+</html>
